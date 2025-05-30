@@ -1,0 +1,87 @@
+body{
+  background: url(images/payment/payment_bg.png) fixed;
+  background-size: 100% 100%;
+}
+.payment-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.payment-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.payment-form .section {
+  margin-bottom: 25px;
+}
+
+.payment-form h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #34495e;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.card-details-row input {
+  width: 95%;
+}
+.card-details-row {
+  display: flex;
+  gap: 15px;
+}
+
+.card-details-row div {
+  flex: 1;
+}
+
+.pay-button {
+  width: 100%;
+  background-color: #43120b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #230803;
+}
+
+@media screen and (max-width: 600px) {
+  .card-details-row {
+    flex-direction: column;
+  }
+}
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.row {
+    animation: zoomIn 1s ease-out forwards;
+}

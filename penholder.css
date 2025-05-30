@@ -1,0 +1,68 @@
+body {
+  background: url(images/penholder_bg.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.banner {
+  background-color: antiquewhite;
+  color: black;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: antiquewhite;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.image-card img {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 12px;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+    color: #43120b;
+}
+
+.card h5 {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #43120b;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .banner h3 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,61 @@
+/* General container */
+body {
+    width: 100%;
+    height: 100%;
+    background: url(images/thankyou_bg.png) no-repeat fixed;
+    background-size: 100% 100%;
+}
+.hero_thankyou {
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    background-color: antiquewhite;
+    color: #333;
+    margin-top: 15%;
+    width: 70%;
+    height: 50%;
+}
+
+/* Heading */
+h1 {
+    color: #43120b;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Footer section */
+.footer-section {
+    margin-top: 40px;
+}
+
+/* Social icons container */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual social links */
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a i {
+    margin-right: 8px;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+/* Hover effects for links */
+.social-icons a:hover {
+    color: #2d1d15;
+}

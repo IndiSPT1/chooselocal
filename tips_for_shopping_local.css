@@ -1,0 +1,15 @@
+body {
+    background: url(images/tips_for_shopping.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tips_for_shopping_local_list {
+    color: white;
+    position: absolute;
+}
+.tips_for_shopping_local_header3, .tips_for_shopping_local_header2, .tips_for_shopping_local_header1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px bisque;
+}

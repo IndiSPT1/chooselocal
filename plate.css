@@ -1,0 +1,60 @@
+body {
+  background: url(images/plate_bg.png) no-repeat fixed;
+  background-size: 100% 100%;
+}
+.bamboo-plate-guide {
+  background-color: antiquewhite;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 900px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  text-align: center;
+  color: #43120b;
+  margin-bottom: 25px;
+}
+
+.materials, .steps {
+  background: #fff;
+  padding: 20px;
+  border-left: 6px solid #43120b;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.materials h3,
+.steps h3 {
+  color:  #43120b;
+  margin-bottom: 15px;
+}
+
+.materials ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.materials li {
+  margin-bottom: 8px;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+.step h4 {
+  color: #2e4d2f;
+  margin-bottom: 5px;
+}
+
+.step p {
+  margin-left: 10px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .bamboo-plate-guide {
+    padding: 20px;
+  }
+}
