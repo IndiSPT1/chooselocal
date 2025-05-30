@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(images/background1.png) fixed;
+    background-size: cover;
+}
+.daily_products_header h1 {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px bisque;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+}
+.flex-container img{
+    width: 260px;
+    height: 200px;
+}
+.product {
+    flex-basis: 20%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.577);
+}
+button {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: #43120b;  
+    color: black;
+}
+body h1 {
+    text-align: center;
+}
+body {
+    background-color: #fffedc;
+}
+.flex-container a:link {
+    color: white;
+}
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.product {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
